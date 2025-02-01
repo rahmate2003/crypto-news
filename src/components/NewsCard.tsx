@@ -16,7 +16,7 @@ export default function NewsCard({ article }: NewsCardProps) {
         <div className="relative w-full h-48">
           <Image
             src={urlToImage || "/no-image.png"} 
-            alt={imageAlt} // Updated alt property
+            alt={imageAlt} 
             layout="fill"
             objectFit="cover"
             className="rounded-t-lg"
