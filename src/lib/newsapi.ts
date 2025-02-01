@@ -25,7 +25,7 @@ export const fetchCryptoNews = async (params: FilterParams = {}): Promise<NewsAp
         page,
       },
     });
- console.log(process.env.NEXT_PUBLIC_NEWS_API_KEY)
+
     const data: NewsApiResponse = response.data;
     return data;
    
