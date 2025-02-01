@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import NewsList from '@/components/NewsList';
 import NewsFilters from '@/components/NewsFilters';
-import { fetchCryptoNews } from '@/lib/newsapi';
+import { fetchCryptoNews } from '@/lib/newsapiid';
 import { Article, FilterParams } from '@/types';
 
 export default function Home() {
